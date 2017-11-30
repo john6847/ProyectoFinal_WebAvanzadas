@@ -1,16 +1,19 @@
 package seguridad
 
 import grails.rest.Resource
+import proyectofinal_webavanzada.Tarjeta
+import proyectofinal_webavanzada.Venta
 
 class Usuario {
 
-    String nombre;
+    String nombreCompleto;
     String apellido;
     String username;
     String password;
+    boolean is_enity
 //    String telefono;
-//    Direccion direccion;
-//    String email;
+    String direccion;
+    String email;
 
 
     //Datos genericos del dominio.
@@ -26,6 +29,8 @@ class Usuario {
     boolean passwordExpired
     boolean silenciarNotificacion=false
 
+    static hasMany = [ventas:Venta]
+    static hasOne = [cart:Tarjeta]
 
     Set<Perfil> getAuthorities() {
         (UsuarioPerfil.findAllByUsuario(this) as List<UsuarioPerfil>)*.perfil as Set<Perfil>

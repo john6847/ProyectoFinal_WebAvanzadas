@@ -1,10 +1,10 @@
 
 
 // Added by the Spring Security Core plugin:
-grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.waterquality.domains.seguridad.Usuario'
-grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.waterquality.domains.seguridad.UsuarioPerfil'
-grails.plugin.springsecurity.authority.className = 'com.waterquality.domains.seguridad.Perfil'
-grails.plugin.springsecurity.requestMap.className = 'com.waterquality.domains.seguridad.Requestmap'
+grails.plugin.springsecurity.userLookup.userDomainClassName = 'seguridad.Usuario'
+grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'seguridad.UsuarioPerfil'
+grails.plugin.springsecurity.authority.className = 'seguridad.Perfil'
+grails.plugin.springsecurity.requestMap.className = 'seguridad.Requestmap'
 //grails.plugin.springsecurity.securityConfigType = 'Requestmap'
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
         [pattern: '/',               access: ['IS_AUTHENTICATED_REMEMBERED']],

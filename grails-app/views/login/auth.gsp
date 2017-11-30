@@ -27,15 +27,20 @@
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition login-page">
 
+<style>
+
+
+p {
+    color:#CCC;
+}
+</style>
+<body class="hold-transition login-page" style="margin-top: 25%; background: #286090 url('https://www.hastac.org/sites/default/files/styles/group_image/public/upload/images/post/digital_map.jpg?itok=s2N3V_l0')">
+<div class="middlePage">
+<div class="page-header">
 <div class="login-box">
-    <div class="login-logo">
-        <a href="../../index2.html"><b>Water Quality Monitoring</b></a>
-    </div>
     <!-- /.login-logo -->
     <div class="login-box-body">
-        <p class="login-box-msg">Favor iniciar sesión para acceder al sistema</p>
 
         <g:if test='${flash.message}'>
             <div class="login_message">${flash.message}</div>
@@ -51,16 +56,9 @@
                 <span class="glyphicon glyphicon-lock form-control-feedback"></span>
             </div>
             <div class="row">
-                <div class="col-xs-8">
-                    <div class="checkbox icheck">
-                        <label>
-                            <input type="checkbox" name="${rememberMeParameter ?: 'remember-me'}" id="remember_me" <g:if test='${hasCookie}'>checked="checked"</g:if>> Recuerdame
-                        </label>
-                    </div>
-                </div>
                 <!-- /.col -->
                 <div class="col-xs-12">
-                    <button type="submit" class="btn btn-primary btn-block btn-flat">Iniciar Sesión</button>
+                    <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
                 </div>
                 <!-- /.col -->
             </div>
@@ -88,7 +86,8 @@
         });
     });
 </script>
-
+</div>
+</div>
 </body>
 %{--<asset:image src="1.jpg" ></asset:image>--}%
 
