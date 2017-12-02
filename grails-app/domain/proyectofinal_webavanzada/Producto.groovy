@@ -8,7 +8,7 @@ class Producto {
     String nombre
     String descripcion
 
-    static hasMany = [ItemesEnVenta:ItemEnVenta]
+    static hasMany = [itemesEnVenta:ItemEnVenta]
     static constraints = {
     }
 }

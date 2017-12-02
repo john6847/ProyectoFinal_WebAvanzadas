@@ -38,6 +38,7 @@ class Usuario {
 
     static constraints = {
         apellido(nullable: true)
+        cart(nullable: true)
 
         password blank: false, password: true
         username blank: false, unique: true

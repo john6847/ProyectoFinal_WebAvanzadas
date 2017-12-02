@@ -51,22 +51,22 @@ desired effect
 |               | sidebar-mini                            |
 |---------------------------------------------------------|
 -->
-<body class="bg-black skin-red-light sidebar-mini">
+<body class="bg-black skin-red-light sidebar-mini" >
 <div class="wrapper">
 
     <!-- Main Header -->
-    <header class="main-header">
+    <header class="main-header" >
 
         <!-- Logo -->
-        <a href="/" class="logo">
+        <a href="/" class="logo" style="background: #286090 url('https://www.hastac.org/sites/default/files/styles/group_image/public/upload/images/post/digital_map.jpg?itok=s2N3V_l0')">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>P</b>B</span>
+            <span class="logo-mini" style="background: #286090 url('https://www.hastac.org/sites/default/files/styles/group_image/public/upload/images/post/digital_map.jpg?itok=s2N3V_l0')"><b>P</b>B</span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>Fake PB</b></span>
+            <span class="logo-lg" style="background: #286090 url('https://www.hastac.org/sites/default/files/styles/group_image/public/upload/images/post/digital_map.jpg?itok=s2N3V_l0')"><b>Fake PB</b></span>
         </a>
 
         <!-- Header Navbar -->
-        <nav class="navbar navbar-static-top" role="navigation">
+        <nav class="navbar navbar-static-top" role="navigation" style="background: #286090 url('https://www.hastac.org/sites/default/files/styles/group_image/public/upload/images/post/digital_map.jpg?itok=s2N3V_l0')">
             <!-- Sidebar toggle button-->
 
             <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
